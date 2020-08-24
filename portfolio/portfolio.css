@@ -1,0 +1,178 @@
+body {
+    text-align: center;
+    margin: 0px 0px;
+}
+
+#navbar {
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    height: 3rem;
+    width: 100%;
+    background: hsla(0, 0%, 0%, 0.3);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 0.05rem solid white;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+
+.nav-links a:hover {
+    color: black;
+}
+
+#navbar > h3 {
+    font-weight: 200;
+}
+
+main {
+    position: relative;
+    top: -20px;
+}
+
+#welcome-section {
+    background-image: url("./img/background/sail3.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding-top: 5vh;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+#welcome-section h1 {
+    font-size: 7rem;
+    font-weight: 100;
+    margin-bottom: 2vh;
+}
+
+#welcome-section h3 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.profiles {
+    margin-top: 10vh;
+}
+
+#profile-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.2rem;
+    background-color: hsla(0, 0%, 0%, 0.3);
+    border-radius: 0.5rem;
+    border: 0.05rem solid white;
+    box-shadow: 0 0 0.5em hsla(0, 0%, 0%, 0.1);
+    transition: all 0.2s ease-out;
+}
+
+#profile-link:hover {
+    background-color: white;
+    color: black;
+}
+
+#projects {
+    background-image: url("./img/background/sail2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.project-tile {
+    width: 25%;
+    /* height: 50vh; */
+    background: hsla(0, 0%, 0%, 0.3);
+    border-radius: 0.5rem;
+    border: 0.05rem solid black;
+    margin: 5vh;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.project-tile img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.project-tile h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+#about {
+    background-image: url("./img/background/sail1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lato', sans-serif;
+    color: white;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80vw;
+    margin-top: 10vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#about h1 {
+    margin: 0px;
+    font-size: 4rem;
+    font-weight: 100;
+}
+
+#about img {
+    border-radius: 25%;
+    width: 50vw;
+    margin-right: 2rem;
+}
+
+.about-text {
+    background: hsla(0, 0%, 100%, 0.2);
+    border-radius: 0.5rem;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+@media (max-width: 1080px) {
+    .project-tile {
+        margin: 0px 0px 5vh 0px;
+        
+    }
+}

@@ -1,0 +1,9 @@
+{
+    "quotes": [
+        {"author": "Mark Twain", "quote": "Never argue with stupid people, they will drag you down to their level and beat you with experience."},
+        {"author": "Albert Einstein", "quote": "The difference between stupidity and genius is that genius has its limits."},
+        {"author": "Charlie Chaplin", "quote": "A day without laughter is a day wasted."},
+        {"author": "John Glenn", "quote": "As I hurtled through space, one thought kept crossing my mind - every part of this rocket was supplied by the lowest bidder."},
+        {"author": "Lily Tomlin", "quote": "The road to succes is always under construction."}
+    ]
+}

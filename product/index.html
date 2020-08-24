@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Pretty Printers</title>
+    <link rel="stylesheet" href="./product.css">
+</head>
+
+<body>
+    <header id="header">
+        <img src="./logo.svg" alt="Company Logo" id="header-img" >
+        <nav id="nav-bar">
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#watch" class="nav-link">Watch it!</a>
+            <a href="#price" class="nav-link">Order</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="subscribe">
+            <h2>3D printers, for your creativity</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input type="email" id="email" placeholder="Your email" name="email" />
+                <input type="submit" id="submit" value="Subscribe"  />
+            </form>
+        </section>
+
+        <section id="features">
+            <div class="feature">
+                <img src="./build-black-48dp.svg" class="feature-img" >
+                <div class="feature-desc">
+                    <h2>Reliable</h2>
+                    <p>
+                        Our printers are very reliable.
+                        The mean time between failures is greater than 50 hours with minimal maintenance.
+                    </p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./sentiment_satisfied_alt-black-48dp.svg" class="feature-img" >
+                <div class="feature-desc">
+                    <h2>Easy to use</h2>
+                    <p>
+                        With our highly optimized software package and well field tested UI design even a child can
+                        operate this printer.
+                    </p>
+                </div>
+            </div>
+            <div class="feature">
+                <img src="./all_inclusive-black-48dp.svg" class="feature-img" >
+                <div class="feature-desc">
+                    <h2>Print with all filaments</h2>
+                    <p>
+                        The nozzle and extruder design enables you to print with almost every material.
+                        Even moonrock, if you can find it in filament form.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="watch">
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/_enZxLcjVUQ" frameborder="0"
+                 allowfullscreen
+                id="video">
+            </iframe>
+        </section>
+
+        <section id="price">
+            <div class="product">
+                <div class="product-name">Small Printer</div>
+                <h2>500€</h2>
+                <ul>
+                    <li>small buildsize</li>
+                    <li>fast printing speed</li>
+                    <li>good for home users</li>
+                </ul>
+                <button class="buyButton">Order now!</button>
+            </div>
+            <div class="product">
+                <div class="product-name">Medium Printer</div>
+                <h2>1000€</h2>
+                <ul>
+                    <li>medium buildsize</li>
+                    <li>fast printing speed</li>
+                    <li>good for advanced users</li>
+                </ul>
+                <button class="buyButton">Order now!</button>
+            </div>
+            <div class="product">
+                <div class="product-name">Large Printer</div>
+                <h2>2000€</h2>
+                <ul>
+                    <li>large buildsize</li>
+                    <li>extra fast printing speed</li>
+                    <li>good for workshops</li>
+                </ul>
+                <button class="buyButton">Order now!</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-nav">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contact</a>
+        </div>
+        <span>Copyright 2020, Pretty Printers</span>
+    </footer>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

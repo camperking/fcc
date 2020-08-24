@@ -1,0 +1,36 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Steffens Pomodoro Clock</title>
+
+    <link href="./css/pomodoro.css" rel="stylesheet">
+    <link href="./libs/jquery-ui/jquery-ui.css" rel="stylesheet">
+    <script src="./libs/jquery/jquery-2.1.4.min.js"></script>
+    <script src="./libs/jquery-ui/jquery-ui.js"></script>
+    <script src="./js/pomodoro.js"></script>
+
+
+</head>
+
+<body>
+    <div>
+        <h1>Pomodoro Clock</h1>
+        <div id="slider-range"></div>
+        <div class="labels">
+            <div>
+                Break: <input class="label" type="text" id="break" readonly> min
+            </div>
+            <div>
+                Session: <input class="label" type="text" id="session"> min
+            </div>
+        </div>
+        <div class="clock">
+            <p id="time-remaining"></p>
+            <p id="state">Start</p>
+            <span class="filler"></span>
+        </div>
+        <div><a href="http://github.com/camperking/fcc-pomodoro">Code on Github</a></div>
+    </div>
+</body>

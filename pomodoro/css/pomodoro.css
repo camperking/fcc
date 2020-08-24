@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 150px;
+    margin-bottom: 100px;
+    font-size: 60px;
+}
+
+.clock {
+    position: relative;
+    margin: 50px auto;
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    z-index: 1;
+    cursor: pointer;
+    color: #f6931f;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.filler {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    z-index: -1;
+}
+
+.labels {
+    font-size: 20px;
+}
+
+.label {
+    border: 0;
+    color: #f6931f;
+    font-weight: bold;
+    font-size: 25px;
+    background-color: black;
+    margin-top: 40px;
+    width: 50px;
+    text-align: right;
+}
+
+#slider-range {
+    margin: 0px auto;
+    width: 50%;
+}
+
+#time-remaining {
+    margin-top: 60px;
+}

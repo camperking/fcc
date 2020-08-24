@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Sailing Survey</title>
+    <link rel="stylesheet" href="./survey.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Sailing Survey</h1>
+        <p id="description">A survey about sailboats and sailing habits.</p>
+    </header>
+    <form id="survey-form">
+        <div class="form-element">
+            <label for="name" id="name-label">Name</label>
+            <input type="text" name="name" id="name" placeholder="Your name" required />
+        </div>
+        <div class="form-element">
+            <label for="email" id="email-label">Email</label>
+            <input type="email" name="email" id="email" placeholder="Your email" required />
+        </div>
+        <div class="form-element">
+            <label for="number" id="number-label">Age</label>
+            <input type="number" name="age" id="number" placeholder="34" min="16" max="100" required />
+        </div>
+        <div class="form-element">
+            <p>What type of boat do you prefer?</p>
+            <select id="dropdown" name="boat-type" required>
+                <option disabled selected value="">Select boat type</option>
+                <option value="keelboat">Keelboat</option>
+                <option value="dinghy">Dinghy</option>
+                <option value="racing-keelboat">Racing keelboat</option>
+                <option value="racing-dinghy">Racing dinghy</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="form-element">
+            <p>What to bring to sailing?</p>
+            <label class="radio"><input type="radio" name="bring" value="six-pack" checked />a sixpack of beer</label>
+            <label class="radio"><input type="radio" name="bring" value="munchies" />munchies</label>
+            <label class="radio"><input type="radio" name="bring" value="vibes" />good vibes</label>
+        </div>
+        <div class="form-element">
+            <p>What are your typical sailing activities?</p>
+            <label class="checkbox"><input type="checkbox" name="activities" value="cruising" />cruising</label>
+            <label class="checkbox"><input type="checkbox" name="activities" value="racing" />racing</label>
+            <label class="checkbox"><input type="checkbox" name="activities" value="learning" />learning to sail</label>
+            <label class="checkbox"><input type="checkbox" name="activities" value="drinkin" />drinking</label>
+        </div>
+        <div class="form-element">
+            <p>Tell me!</p>
+            <textarea id="comments" name="comment" placeholder="What do you think?"></textarea>
+        </div>
+        <div class="form-element submit">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
